@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Page 1 – Interest Submission Form</title>
+  <style>
+    body {
+      background-color: purple;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    .textboxContainer {
+      margin: 20px;
+    }
+    .textboxContainer label {
+      font-size: 1.2em;
+      margin-right: 10px;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 12px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a046;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Page 1</h1>
+  <form action="page2.html" method="post">
+    <div class="textboxContainer">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
